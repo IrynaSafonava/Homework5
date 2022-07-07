@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iryna Safonava</title>
+    <title>CV of Iryna Safonava</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto:wght@400;900&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" href="assets/favicon-32.png" type="image/png">
 </head>
 
@@ -18,16 +19,17 @@
         <div class="container">
             <div class="header-container">
                 <p><a href="https://www.it-academy.by/">
-                    <svg class="it-academy-logo">
-                        <use xlink:href="./assets/logo.svg"></use>
-                    </svg>
-                </a></p>
+                        <svg class="it-academy logo">
+                            <use xlink:href="./assets/svg/logo.svg"></use>
+                        </svg>
+                    </a></p>
                 <nav class="nav">
                     <ul class="nav-list">
-                        <li class="nav-item"><a href="#AboutMe" class="nav-link">About Me</a></li>
-                        <li class="nav-item"><a href="#ContactInfo" class="nav-link">Contact Info</a></li>
-                        <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
-                        <li class="nav-item"><a href="#Skilllist" class="nav-link">Skill list</a></li>
+                        <li class="nav-item"><a href="#aboutMe" class="nav-link">About Me</a></li>
+                        <li class="nav-item"><a href="#contactInfo" class="nav-link">Contact Info</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#skillList" class="nav-link">Skill list</a></li>
+                        <li class="nav-item"><a href="#hobbies" class="nav-link">Hobbies</a></li>
                     </ul>
                 </nav>
             </div>
@@ -38,73 +40,154 @@
         <div class="container">
             <div class="main-container">
                 <h1>IRYNA SAFONAVA</h1>
-                <h2><a name="about">About Me</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis mattis est. Aliquam sed mauris sed
-                    elit bibendum dignissim. Nam aliquam id lacus in vulputate. Vestibulum molestie ultrices libero,
-                    eget vestibulum elit condimentum non. Integer at venenatis lectus, sed ullamcorper nibh. Vestibulum
-                    eget ipsum ut ex ullamcorper lobortis sit amet quis justo. Nullam condimentum sapien ac ex rhoncus,
-                    ac eleifend lectus lobortis. Mauris sed tellus nunc. Ut erat urna, aliquam a ante sed, sodales
-                    hendrerit nibh.</p>
-                <h2><a name="contact">Contact Info</a></h2>
+                <h2 id="aboutMe">About Me</h2>
+                <div class="box">
+                    <div class="section">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.</p>
+                        <p>Vestibulum tincidunt suscipit mollis. Nam sit amet interdum lorem. Aliquam rutrum purus sit
+                            amet mattis sagittis. Vivamus quis hendrerit ante, id fermentum orci. Cras eu volutpat sem,
+                            ac consectetur justo. Morbi fermentum elit nibh, ac sodales nisl ultrices sed. In magna
+                            enim, tincidunt quis tortor ac, imperdiet cursus quam. Nullam id vestibulum lectus, egestas
+                            consectetur nisi. Donec congue, sapien cursus vehicula interdum, erat mi volutpat dui, sed
+                            aliquet justo metus at dolor. Vestibulum vehicula purus sit amet rhoncus pharetra. Morbi
+                            ultrices tristique pellentesque. Sed dictum feugiat mi pellentesque malesuada. Sed facilisis
+                            leo at mollis dictum.</p>
+                        <p>Duis nec nisl dui. Sed eleifend convallis vestibulum. Pellentesque imperdiet mi odio, eget
+                            sodales dui dictum eu. Morbi dapibus vel tortor sit amet consequat. Nulla augue odio,
+                            commodo eget nibh sit amet, scelerisque tempus nibh. Morbi posuere lorem et felis efficitur
+                            tristique. Nam et consectetur arcu. Quisque nunc sapien, imperdiet eu convallis sit amet,
+                            efficitur at erat. Suspendisse pulvinar, magna ultrices efficitur convallis, lorem nisl
+                            aliquam ligula, non malesuada purus lacus nec sem. Vestibulum fringilla, felis sit amet
+                            placerat aliquam, neque neque bibendum est, a lobortis turpis dolor id arcu. Donec
+                            condimentum egestas velit, at ullamcorper nisl consequat eu. Vivamus in aliquam mauris.
+                            Aenean convallis vestibulum nulla, a finibus tellus sodales sed. Pellentesque habitant morbi
+                            tristique senectus et netus et malesuada fames ac turpis egestas. Donec pretium lobortis
+                            ligula, nec vestibulum eros bibendum sodales.</p>
+                        <p>
+                            DOB: 15-11-1989
+                        </p>    
+                    </div>
+                    <div class="section_avatar">
+                        <img src="./assets/avatar.jpg" alt="avatar" class="avatar">
+                    </div>
+                </div>
+                <h2 id="contactInfo">Contact Info</h2>
                 <ul>
-                    <li>E-mail: iryna.safonava@gmail.com</li>
-                    <li>Cell: +375290000001</li>
-                    <li>Belarus, Gomel</li>
+                    <li><b>E-mail:</b><a href="mailto:mail@htmlacademy.ru"> emily_89@mail.ru</a></li>
+                    <li><b>Cell:</b><a href="tel:+375290000001"> +375-29-000-00-00</a></li>
+                    <li><b>Location:</b> 246004 Belarus, Gomel</li>
+                    <li><a href="https://github.com/IrynaSafonava">
+                            <svg class="git logo" align="center">
+                                <use xlink:href="./assets/svg/github.svg"></use>
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com/in/iryna-safonava-936b8013a/">
+                            <svg class="linkedin logo" align="center">
+                                <use xlink:href="./assets/svg/linkedin.svg"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
-                <h2><a name="education">Education</a></h2>
+                <h2 id="education">Education</h2>
                 <ul>
-                    <li>2007 - 2012: Gomel state University, <i>Faculty of global economy,</i> speciality:
-                        <i>International
-                            economic affairs of an enterprise</i>
+                    <li><b>2007 - 2012:</b> Gomel state University, <i>Faculty of global economy,</i> speciality:
+                        <i> International economic affairs of an enterprise</i>
                     </li>
-                    <li>2017: IT Academy: <i>Functional software testing</i></li>
-                    <li>2021: RS School Stage #0, course: <i>JavaScript/Front-end</i></li>
-                    <li>2022: IT-Academy, course: <i>Automating testing on Java</i>
+                    <li><b>2017:</b> IT Academy:<i> Functional software testing</i></li>
+                    <li><b>2021:</b> RS School Stage #0, course: <i> JavaScript/Front-end</i></li>
+                    <li><b>2022:</b> IT-Academy, course: <i> Automation testing on Java</i>
                     </li>
                 </ul>
-                <h2><a name="skills">Skill list</a></h2>
+                <h2 id="skillList">Skill list</h2>
                 <table>
                     <tbody>
-                        <th>Soft Skills</th>
-                        <th>Hard Skills</th>
+                        <th>SOFT SKILLS</th>
+                        <th>HARD SKILLS</th>
                         <tr>
                             <td>
                                 <ul>
-                                    <li>Adaptability</li>
-                                    <li>Conflict resolution</li>
-                                    <li>Teamwork</li>
-                                    <li>Leadership</li>
-                                    <li>Communication</li>
+                                    <li><b>Adaptability:</b> Vivamus commodo felis lectus, sed rhoncus ipsum ultricies
+                                        eu.
+                                        Vestibulum varius dolor eu eros auctor, quis luctus nulla pharetra. Fusce a
+                                        tempus mi. Duis pulvinar fermentum feugiat. In consequat urna quis lorem
+                                        ullamcorper scelerisque</li>
+                                    <li><b>Conflict resolution:</b> Nunc et elementum augue, vitae maximus magna.
+                                        Vivamus porta
+                                        convallis purus, non imperdiet sem elementum semper. Pellentesque quis dignissim
+                                        ligula. </li>
+                                    <li><b>Teamwork:</b> In et risus sapien. Sed at enim ornare, dictum tortor eu,
+                                        molestie
+                                        arcu. Nunc eget magna eget turpis egestas maximus et interdum mauris.
+                                        Suspendisse consectetur dolor ut nulla faucibus, blandit interdum sem feugiat.
+                                        Morbi efficitur congue neque ut finibus. Sed at nisi aliquam, hendrerit lacus a,
+                                        placerat dolor. </li>
+                                    <li><b>Leadership:</b> Proin pulvinar vehicula ante, dapibus pretium mauris tempor
+                                        nec.
+                                        Nulla ac commodo nunc. Morbi blandit lorem vel laoreet viverra. Sed vitae mollis
+                                        erat, id fermentum ante. </li>
+                                    <li><b>Communication:</b> Sed id sapien quis tortor dictum pretium. Ut eget mauris
+                                        nec
+                                        libero rutrum tristique. Integer ultricies ex sed libero ornare, non tincidunt
+                                        sem bibendum. </li>
                                 </ul>
                             </td>
                             <td>
                                 <ul>
-                                    <li>Foreign languages:</li>
+                                    <li><b>Foreign languages:</b></li>
                                     <ul>
                                         <li>English: B2+</li>
                                         <li>French: A2</li>
                                     </ul>
-                                    <li>Novice in Java, SQL, HTML, CSS, JavaScript, JUnit, TestNG, Selenium WebDriver
+                                    <li><b>Novice in:</b>
+                                        <ul>
+                                            <li>Java</li>
+                                            <li>SQL</li>
+                                            <li>HTML/CSS/JavaScript</li>
+                                            <li>JUnit/TestNG</li>
+                                            <li>Selenium WebDriver</li>
+                                        </ul>
                                     </li>
+                                    <li>Being familiar with tools for test management and bug tracking</li>
+                                    <li>Understanding the systems’ specifications</li>
+                                    <li>Maintaining the bug database</li>
+                                    <li>Spotting glitches and bugs in the software</li>
+                                    <li>Carrying out manual testing</li>
                                 </ul>
                             </td>
                         </tr>
                     </tbody>
                 </table>
+                <h2 id="hobbies">Hobbies</h2>
+                <div class="hobbies">
+                    <p>
+                        <img src="./assets/suitcase.png" alt="travaling"
+                            class="hobby">
+                    </p>
+                    <p>
+                        <img src="./assets/sports.png" alt="fitness"
+                            class="hobby">
+                    </p>
+                    <p>
+                        <img src="./assets/gamepad.png" alt="video games" class="hobby">
+                    </p>
+                    <p>
+                        <img src="./assets/soccer.png" alt="sports" class="hobby">
+                    </p>
+                </div>
             </div>
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <div class="footer-data">
-                <p><a href="https://github.com/IrynaSafonava">
-                        <svg class="git-logo">
-                            <use xlink:href="./assets/github.svg"></use>
-                        </svg>
-                    </a>
-                </p>
-                <p>2022</p>
+            <div class="footer-container">
+                <p>&#169 - 2022 - IT-Academy-BY</p>
             </div>
         </div>
     </footer>
