@@ -82,8 +82,8 @@ h2 {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    justify-content: center;
     font-weight: 900;
+    color: #274856;
 }
 
 .footer-data {
@@ -115,10 +115,6 @@ h2 {
     background-image: url(assets/svg/logo.svg);
 }
 
-.logo:hover {
-    fill: #7DB200;
-}
-
 td {
     width: 50%;
     border: 1px dotted #274856;
@@ -128,12 +124,6 @@ td {
 th {
     color: #d4007a;
     border: 1px dotted #274856;
-}
-
-.general {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
 }
 
 .hobby {
